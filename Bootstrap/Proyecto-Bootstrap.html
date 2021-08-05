@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Twemoji2_1f600.svg/1200px-Twemoji2_1f600.svg.png"
+                alt="emoji" width="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <h1 class="display-1 text-center">Hello World!</h1>
+    
+    <div class="container w-25 h-25">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.andro4all.com/files/2020/07/Emoji-1f917-cara-sonriente-abrazando.png"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.commbox.io/wp-content/uploads/2020/02/214-1.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.revistagq.com/photos/5ca5f8f9be2d671acee07710/master/pass/emojis_871.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes
+                                control the overall appearance, as well as the showing and hiding via CSS transitions.
+                                You can
+                                modify any of this with custom CSS or overriding our default variables. It's also worth
+                                noting
+                                that just about any HTML can go within the <code>.accordion-body</code>, though the
+                                transition
+                                does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes
+                                control the overall appearance, as well as the showing and hiding via CSS transitions.
+                                You can
+                                modify any of this with custom CSS or overriding our default variables. It's also worth
+                                noting
+                                that just about any HTML can go within the <code>.accordion-body</code>, though the
+                                transition
+                                does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes
+                                control the overall appearance, as well as the showing and hiding via CSS transitions.
+                                You can
+                                modify any of this with custom CSS or overriding our default variables. It's also worth
+                                noting
+                                that just about any HTML can go within the <code>.accordion-body</code>, though the
+                                transition
+                                does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.andro4all.com/files/2020/08/Emoji-1f610-cara-neutral.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit at quidem laudantium a, quos
+                    debitis maiores ipsum explicabo quasi sequi voluptates aut odit voluptas aperiam. Enim expedita quis
+                    necessitatibus magnam.</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae repellat earum doloribus distinctio
+                    unde repellendus quaerat deserunt dignissimos sit, velit vero inventore, cupiditate iste praesentium
+                    veniam ipsa modi nam a.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+<footer>
+    <nav class="navbar navbar-light bg-warning">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Twemoji2_1f600.svg/1200px-Twemoji2_1f600.svg.png" alt="" width="30" height="24">
+          </a>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </nav>
+</footer>
+
+</html>
